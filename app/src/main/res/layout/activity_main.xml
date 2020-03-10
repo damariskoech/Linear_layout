@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="weight"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:layout_marginTop="80dp"
+        android:inputType="number"
+        android:hint="in kgs"
+        android:autofillHints="kgs"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="5dp"
+        android:text="Height"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:layout_marginTop="80dp"
+        android:inputType="numberDecimal"
+        android:hint="in ft"
+        android:autofillHints="kgs"/>
+
+</LinearLayout>
+
+
+
+
+
